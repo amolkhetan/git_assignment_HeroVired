@@ -13,15 +13,16 @@ class Calculator:
     def divide(self, a, b):
         if b == 0:
             raise ValueError("Cannot divide by zero.")
-        return a / b
-   
+        else:
+             return a / b
+          
     def square_root(self, x):
         return math.sqrt(x)
 
 if __name__ == "__main__":
     calculator = Calculator()
 
-num1 = 16
+num1 = 1
 num2 = 4
 num3 = 25
 
